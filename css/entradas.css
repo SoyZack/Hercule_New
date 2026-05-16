@@ -1,0 +1,73 @@
+
+body{
+    background: #111;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.titulo{
+    text-align: center;
+    margin: 30px 0;
+    font-weight: bold;
+    color: gold;
+}
+
+
+
+.tarjeta{
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.tarjeta:hover{
+    transform: translateY(-5px);
+}
+
+
+.equipo img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.equipo p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.vs{
+    font-size: 30px;
+    font-weight: bold;
+    color: gold;
+}
+
+.liga{
+    color: gold;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.jornada{
+    font-weight: bold;
+}
+
+.precio{
+    margin: 3px 0;
+}
+
+
+.btn-warning{
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.nav-link:hover{
+    color: gold !important;
+}

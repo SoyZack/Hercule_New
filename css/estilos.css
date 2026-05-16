@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #112A4A;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.nav-logo h2 {
+    color: #E7DBCB;
+    margin: 0;
+}
+
+
+.logo {
+    width: 60px;
+}
+
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #E7DBCB;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-menu li a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #E7DBCB;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.calendario {
+    max-width: 700px;
+    margin: auto;
+}
+
+
+.dia {
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.dia h2 {
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+
+.partido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.partido:last-child {
+    border-bottom: none;
+}
+
+
+.equipos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.equipos img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.vs {
+    font-weight: bold;
+    color: #999;
+}
+
+
+.hora {
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
+
+.nav-link:hover{
+    color: gold !important;
+}

@@ -1,0 +1,113 @@
+body{
+    background: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.titulo{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 45px;
+    color: rgb(144, 141, 50);
+    font-weight: bold;
+}
+
+
+.calendario{
+    width: 90%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    gap: 25px;
+}
+
+
+.dia{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+
+    transition: 0.3s;
+    border-top: 8px solid black;
+}
+
+
+.dia:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.25);
+}
+
+
+.dia h2{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+
+.partido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.equipos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+}
+
+.equipos img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 3px solid black;
+    background: white;
+    padding: 5px;
+}
+
+
+.vs{
+    font-size: 25px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+
+.hora{
+    background: goldenrod;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.navbar{
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+}
+
+
+footer{
+    margin-top: 60px;
+}
+
+footer img{
+    transition: 0.3s;
+}
+
+footer img:hover{
+    transform: scale(1.15);
+}

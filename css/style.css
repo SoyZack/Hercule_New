@@ -1,0 +1,24 @@
+
+footer img {
+    transition: transform 0.3s;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.nav-link:hover{
+    color: gold !important;
+}

@@ -1,0 +1,76 @@
+body{
+    background: #101326;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.barra{
+    background: #0b0d1a;
+    border-bottom: 3px solid #a50044;
+}
+
+.nav-link{
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: gold !important;
+}
+
+
+.titulo{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+
+.historia-card{
+    background: #e9e9e9;
+    color: black;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 100%;
+    cursor: pointer;
+}
+
+.historia-card:hover{
+    transform: translateY(-8px);
+}
+
+.historia-card img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+
+.contenido{
+    padding: 20px;
+}
+
+.contenido h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contenido p{
+    font-size: 16px;
+    color: #333;
+}
+
+
+@media(max-width:768px){
+
+    .titulo{
+        font-size: 35px;
+    }
+
+    .historia-card img{
+        height: 200px;
+    }
+
+}

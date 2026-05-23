@@ -74,3 +74,26 @@ body{
     }
 
 }
+
+.trophy-card{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.trophy-icon{
+    color: gold;
+    font-size: 50px;
+}
+
+.number{
+    color: #ffcc00;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title, .small-text{
+    color: white;
+    font-weight: bold;
+}
